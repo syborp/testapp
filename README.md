@@ -6,7 +6,7 @@ I have been working on it in Android.
 
 It was building and running in NativeScript 6.5.0 and I have migrated to NativeScript 8.1.5 and am trying to get it building and running but stuck.
 
-Clone and 
+Fork/clone and 
 
 ```
 ns run android
