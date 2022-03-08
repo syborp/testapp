@@ -1,0 +1,73 @@
+.itemTemplateStackLayout {
+    padding: 5 10 5 10;
+    background-color: #7fff7f;
+}
+
+.innerOtemTemplateStackLayout {
+    padding: 10;
+    background-color: #65a565;
+}
+
+.labelsStackLayout {
+    margin-left: 15;
+}
+
+.labelName {
+    font-size: 20;
+    margin-bottom: 8;
+}
+
+.labelTitle {
+    font-size: 14;
+    font-weight: bold;
+}
+
+.journeyItemTitle {
+    color: #0075bb;
+    padding-left: 12;
+    font-size: 18;
+    font-weight: bold;
+}
+
+.journeyItemText {
+    padding-left: 12;
+}
+
+.labelText {
+    font-size: 12;
+    color: white;
+}
+
+label.label_menu {
+    color: #0075bb;
+    padding: 8;
+    font-size: 18;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+StackLayout {
+    width: 100%;
+    padding: 0 0;
+    background-color: #ffffff;
+    /* border-radius:30px; */
+}
+
+.journey {
+    background-color: #ffffff;
+    padding-top: 15;
+    padding-bottom: 12;
+    border-bottom: 1;
+    border-width: 1;
+    border-color: #efefef;
+}
+
+.itemTemplateStackLayout {
+    padding: 0;
+
+}
+
+
+.reportExpenseDetailsGridLayout {
+    width: 100%;
+}

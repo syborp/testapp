@@ -1,0 +1,305 @@
+// Place any CSS rules you want to apply on both iOS and Android here.
+// This is where the vast majority of your CSS code goes.
+// Font icon class
+
+@import "nativescript-theme-core/css/core.light.css";
+
+// Layout
+FlexboxLayout, GridLayout {
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  /*
+  background-image: url("~/images/background.jpg");
+  */
+}
+
+StackLayout.form {
+  padding: 10 16;
+  /* border-radius:30px; */
+}
+
+.fullWidthBorderStackLayout {
+  margin-left: 0;
+  padding: 8;
+  border-bottom-width: 2px;
+  background-color: #efefef;
+  border-bottom-color: #777;
+}
+
+.gradbg {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.034033681832107865) 0%, rgba(0, 33, 89, 0.034033681832107865) 100%);
+  background-size: fit;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fa {
+  font-family: "FontAwesome";
+}
+
+.fa_menu {
+  font-size: 18;
+}
+
+.far {
+  font-family: "Font Awesome 5 Free", "fa-regular-400";
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands", "fa-brands-400";
+}
+
+.fas {
+  font-family: "Font Awesome 5 Free", "fa-solid-900";
+}
+
+.ico {
+  font-family: "IcoMoon-Free";
+}
+
+.homepage_icons {
+  color: #00f;
+}
+
+// Common page class
+.page-content {
+  .page-placeholder {
+    color: $page-icon-color;
+    font-size: $page-content-placeholder-font-size;
+    vertical-align: center;
+    text-align: center;
+  }
+
+  .page-icon {
+    font-size: 72;
+    vertical-align: top;
+    text-align: center;
+    color: $page-icon-color;
+    margin-top: 20%;
+  }
+}
+
+//Action bar
+ActionBar {
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(2, 144, 210, 1) 0%, rgba(4, 61, 116, 1) 100%);
+}
+
+
+/* Form Validation */
+.ng-valid[required] {
+  border-left-color: #42A948;
+  border-left-width: 3;
+}
+
+.ng-invalid {
+  border-left-color: #a94442;
+  border-left-width: 3;
+}
+
+.validation {
+  background-color: #a94442;
+  color: #ffffff;
+}
+
+.validation_error {
+  background-color: #fcffcc;
+  color: #AA4442;
+  padding: 2;
+  width: 100%;
+}
+
+/* /Form Validation */
+
+.input {
+  //color: red;
+}
+
+TextField {
+  background-color: #ffffff;
+  placeholder-color: #C4AFB4;
+}
+.input {
+  margin-top: 20;
+  border-width: 1;
+  border-color: white;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius:10;
+}
+Image {
+  margin-bottom: 20;
+  height: 70;
+}
+
+Button, TextField {
+  margin-bottom: 10;
+}
+
+.btn-primary {
+  background-color: #2c68b1;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.btn-photo {
+  height: 55;
+  border-color: #00A2D2;
+  color: #00A2D2;
+  font-weight: bold;
+}
+
+label.label_instr {
+  color: #0075bb;
+
+  margin-bottom: 80px;
+}
+
+label.menu_label {
+  width: 100%;
+  background: #ffffff;
+  border: 5px solid grey;
+  padding: 12px;
+  height: 150px;
+  border-color: #777777;
+  border-width: 1px;
+}
+
+
+#cat_options, #subcat_options, #policy_options, #report_options, #currency_options, .dropdown_options {
+  padding: 8;
+  background-color: #fff;
+  color: #555;
+  font-size: 16;
+  margin-bottom: 10;
+  border-color: #eee;
+  border-width: 1;
+  width: 100%;
+}
+
+#cat_options, #subcat_options, #policy_options {
+  background-color: #EFF7F0;
+}
+
+.dropdownOpened {
+  background-color: #bbb;
+}
+
+.dropdownClosed {
+  background-color: #bbb;
+}
+
+.status_orange {
+  color: #D17900;
+}
+
+.status_pink {
+  color: #CA080F;
+}
+
+.status_red {
+  color: #ED1C24;
+}
+
+.status_green {
+  color: #00A651;
+}
+
+.status_greyblue {
+  color: #7DA7D9;
+}
+
+.bold_text {
+  font-weight: bold;
+}
+
+.normal_text {
+  font-weight: normal;
+}
+
+.darkbluetext {
+  color: #002d62;
+}
+
+.invisible {
+  display: none;
+}
+
+.lightbluetext {
+  color: #00a2d2;
+}
+
+.mediumbluetext {
+  color: #2c68b1;
+}
+
+.grey_text {
+  color: #555566;
+}
+
+/* booking blue: web #0896ff; app #003580; */
+
+.white_text {
+  color: #fff;
+}
+
+.black_text {
+  color: #000;
+}
+
+.nocolor_text {
+  color: #555;
+}
+
+.green_text {
+  color: #16b350;
+}
+
+.red_text {
+  color: #CA080F;
+}
+
+.darkblue_text {
+  color: #003580;
+}
+
+.blue_text {
+  color: #3669C1;
+}
+
+a.blue_text {
+  color: #3669C1;
+}
+
+.no_underline {
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bg_light_blue {
+  background: #dff1fe;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.bg_medium_blue {
+  background: #0896FF;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.small_text {
+  font-size: 12px;
+}
+
+.medium_text {
+  font-size: 14px;
+}
+
+.large_text {
+  font-size: 16px;
+}

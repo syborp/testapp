@@ -1,0 +1,44 @@
+<ActionBar class="action-bar">
+    <Label class="action-bar-title" text="Home"></Label>
+</ActionBar>
+
+
+
+<ScrollView>
+    <FlexboxLayout class="innerFLexLayout">
+        <StackLayout class="form">
+
+
+            <StackLayout class="expenseStackLayout">
+                <GridLayout class="home gradbg" rows="auto, *" (tap)="navigateToTab(1)">
+                    <Label row="0" text="Page 1" class="homeItemTitle"></Label>
+                    <Label row="1" text="Take me to page 1" class="homeItemText"></Label>
+                </GridLayout>
+            </StackLayout>
+
+            <StackLayout class="expenseStackLayout">
+                <GridLayout class="home gradbg" rows="auto, *" (tap)="navigateToTab(2)">
+                    <Label row="0" text="Page 2" class="homeItemTitle"></Label>
+                    <Label row="1" text="Take me to page 2" class="homeItemText"></Label>
+                </GridLayout>
+            </StackLayout>
+            <StackLayout class="expenseStackLayout">
+                <GridLayout class="home gradbg" rows="auto, *" (tap)="navigateToTab(3)">
+                    <Label row="0" text="Page 3" class="homeItemTitle"></Label>
+                    <Label row="1" text="Take me to page 3" class="homeItemText"></Label>
+                </GridLayout>
+            </StackLayout>
+
+
+
+        </StackLayout>
+    </FlexboxLayout>
+</ScrollView>
+
+
+
+
+
+
+
+

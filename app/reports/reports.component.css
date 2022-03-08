@@ -1,0 +1,42 @@
+StackLayout {
+    width: 100%;
+    padding: 0 0;
+    /* border-radius:30px; */
+}
+
+.itemTemplateStackLayout {
+    padding: 0;
+
+}
+
+.radListView_reports {
+    width: 100%;
+    height: 500;
+}
+
+.reportStackLayout {
+    margin-left: 0;
+    padding: 8;
+    border-bottom-width: 2px;
+    border-bottom-color: #777;
+}
+
+.reportDetailsGridLayout {
+    width: 100%;
+}
+
+.labelName {
+    font-size: 16;
+    margin-bottom: 8;
+}
+
+.labelStatus {
+    font-size: 14;
+    font-weight: bold;
+    text-align: left;
+}
+
+.labelValue {
+    font-size: 14;
+    text-align: right;
+}

@@ -1,0 +1,91 @@
+
+#homeGridLayout {
+
+}
+
+#homeStackLayout {
+
+}
+
+.itemTemplateStackLayout {
+    padding: 5 10 5 10;
+    background-color: #7fff7f;
+}
+
+.innerOtemTemplateStackLayout {
+    padding: 10;
+    background-color: #65a565;
+}
+
+.labelsStackLayout {
+    margin-left: 15;
+}
+
+.labelName {
+    font-size: 20;
+    margin-bottom: 8;
+}
+
+.labelTitle {
+    font-size: 14;
+    font-weight: bold;
+}
+
+.labelText {
+    font-size: 12;
+    color: white;
+}
+
+.homeItemTitle {
+    color: #0075bb;
+    padding-left: 12;
+    font-size: 18;
+    font-weight: bold;
+}
+
+.homeItemText {
+    padding-left: 12;
+}
+
+StackLayout {
+    width: 100%;
+    padding: 0 0;
+    background-color: #ffffff;
+    /* border-radius:30px; */
+}
+
+.itemTemplateStackLayout {
+    padding: 0;
+}
+
+.home_listing {
+    background-color: #bfbfbf;
+}
+
+.home {
+    background-color: #ffffff;
+    padding-top: 15;
+    padding-bottom: 12;
+    border-bottom: 1;
+    border-width: 1;
+    border-color: #efefef;
+}
+
+.expenseStackLayout {
+    /*
+    margin-top: 12;
+    margin-left: 0;
+    padding: 6;
+    padding-bottom:0;
+    background-color: #ffffcc;
+    */
+
+    /*
+    border-bottom-width:2px;
+    border-bottom-color: #777;
+    */
+}
+
+.reportExpenseDetailsGridLayout {
+    width: 100%;
+}
