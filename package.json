@@ -58,7 +58,7 @@
     "lazy": "1.0.11",
     "sass": "~1.39.0",
     "tslint": "~5.12.1",
-    "typescript": "~4.3.5",
+    "typescript": "^4.3.5",
     "uglifyjs-webpack-plugin": "^2.2.0"
   },
   "main": "./app/main.ts"
