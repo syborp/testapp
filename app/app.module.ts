@@ -8,6 +8,7 @@ import {ModalDialogService} from "@nativescript/angular";
 import {NativeScriptModule} from "@nativescript/angular";
 import {NativeScriptRouterModule} from "@nativescript/angular";
 import {NativeScriptBottomNavigationBarModule} from "nativescript-bottom-navigation/angular";
+import {NativeScriptMaterialBottomNavigationModule} from "@nativescript-community/ui-material-bottom-navigation/angular";
 import {DropDownModule} from "nativescript-drop-down/angular";
 import {NativeScriptUIListViewModule} from "nativescript-ui-listview/angular";
 import {enable as traceEnable} from "@nativescript/core/trace";
@@ -41,7 +42,8 @@ export class MyErrorHandler implements ErrorHandler {
     DropDownModule,
     NativeScriptCommonModule,
     NativeScriptUIListViewModule,
-    NativeScriptBottomNavigationBarModule
+    NativeScriptBottomNavigationBarModule,
+    NativeScriptMaterialBottomNavigationModule
     ],
   declarations: [
     AppComponent,

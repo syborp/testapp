@@ -1,36 +1,36 @@
-<BottomNavigation #bottomNav>
-    <TabStrip iosIconRenderingMode="alwaysOriginal">
-        <TabStripItem backgroundColor="#dddddd" (tap)="navigateToTab(0)">
+<MDBottomNavigation #bottomNav>
+    <MDTabStrip iosIconRenderingMode="alwaysOriginal">
+        <MDTabStripItem backgroundColor="#dddddd" (tap)="navigateToTab(0)">
             <Label text="Home" (tap)="navigateToTab(0)"></Label>
             <Image src="font://&#xf015;" class="fas t-36"></Image>
-        </TabStripItem>
-        <TabStripItem backgroundColor="#dddddd" (tap)="navigateToTab(1)">
+        </MDTabStripItem>
+        <MDTabStripItem backgroundColor="#dddddd" (tap)="navigateToTab(1)">
             <Label text="Page 1" (tap)="navigateToTab(1)"></Label>
             <Image src="font://&#xf51e;" class="fas t-36"></Image>
-        </TabStripItem>
-        <TabStripItem backgroundColor="#dddddd" (tap)="navigateToTab(2)">
+        </MDTabStripItem>
+        <MDTabStripItem backgroundColor="#dddddd" (tap)="navigateToTab(2)">
             <Label text="Page 2" (tap)="navigateToTab(2)"></Label>
             <Image src="font://&#xf5e4;" class="fas t-36"></Image>
-        </TabStripItem>
-        <TabStripItem backgroundColor="#dddddd" (tap)="navigateToTab(3)">
+        </MDTabStripItem>
+        <MDTabStripItem backgroundColor="#dddddd" (tap)="navigateToTab(3)">
             <Label text="Page 3" (tap)="navigateToTab(3)"></Label>
             <Image src="font://&#xf0ea;" class="fas t-36"></Image>
-        </TabStripItem>
-    </TabStrip>
+        </MDTabStripItem>
+    </MDTabStrip>
 
-    <TabContentItem>
+    <MDTabContentItem>
         <page-router-outlet name="homeTab"></page-router-outlet>
-    </TabContentItem>
+    </MDTabContentItem>
 
-    <TabContentItem>
+    <MDTabContentItem>
         <page-router-outlet name="expenseTab"></page-router-outlet>
-    </TabContentItem>
+    </MDTabContentItem>
 
-    <TabContentItem>
+    <MDTabContentItem>
         <page-router-outlet name="journeyTab"></page-router-outlet>
-    </TabContentItem>
+    </MDTabContentItem>
 
-    <TabContentItem>
+    <MDTabContentItem>
         <page-router-outlet name="reportsTab"></page-router-outlet>
-    </TabContentItem>
-</BottomNavigation>
+    </MDTabContentItem>
+</MDBottomNavigation>
